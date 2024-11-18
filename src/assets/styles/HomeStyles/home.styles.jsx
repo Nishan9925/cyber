@@ -14,9 +14,13 @@ export const HomeWrapper = styled.section`
 export const HomeBeyond = styled.section`
   display: flex;
   flex-flow: row wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  width: 80vw;
+  width: 100%;
+  /* padding: 5.5rem 1rem 0; */
+  /* gap:3rem; */
+
+  /* width: 80vw; */
   /* row-gap: 3rem; */
   /* min-height: calc(100vh - 39rem); */
 
@@ -24,8 +28,8 @@ export const HomeBeyond = styled.section`
     justify-content: center;
     height: 48rem;
     overflow: hidden;
-    gap:3rem;
-    padding: 5.5rem 1rem 1rem 0;
+    /* gap:3rem; */
+    /* padding: 5.5rem 1rem 0 ; */
 
   }
 
@@ -83,12 +87,12 @@ export const HomeBeyondParagraph = styled.p`
 
 export const HomeBeyondRight = styled.div`
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 25.3rem;
-  height: 39rem;
+  height: 100%;
 
   @media (max-width: 1279px) {
     margin-top: 3rem;

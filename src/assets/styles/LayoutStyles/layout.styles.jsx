@@ -6,5 +6,6 @@ export const LayoutWrapper = styled.div`
   justify-content: center;
   align-items: center;
   font-family: var(--font-family);
+  width: 100%;
   /* min-height: 100vh; */
 `;
